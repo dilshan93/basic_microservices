@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="banking-core-service-registry" />
+        <module name="internet-banking-user-service" />
+        <module name="internet-banking-api-gateway" />
+        <module name="internet-banking-fund-transfer-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="banking-core-service-registry" target="17" />
+      <module name="internet-banking-api-gateway" target="17" />
+      <module name="internet-banking-fund-transfer-service" target="17" />
+      <module name="internet-banking-user-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="banking-core-service-registry" options="-parameters" />
+      <module name="internet-banking-api-gateway" options="-parameters" />
+      <module name="internet-banking-fund-transfer-service" options="-parameters" />
+      <module name="internet-banking-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

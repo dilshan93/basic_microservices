@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../banking-core-service-registry/banking-core-service-registry.iml" filepath="$PROJECT_DIR$/../banking-core-service-registry/banking-core-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../internet-banking-api-gateway/internet-banking-api-gateway.iml" filepath="$PROJECT_DIR$/../internet-banking-api-gateway/internet-banking-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../internet-banking-fund-transfer-service/internet-banking-fund-transfer-service.iml" filepath="$PROJECT_DIR$/../internet-banking-fund-transfer-service/internet-banking-fund-transfer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../internet-banking-user-service/internet-banking-user-service.iml" filepath="$PROJECT_DIR$/../internet-banking-user-service/internet-banking-user-service.iml" />
+    </modules>
+  </component>
+</project>

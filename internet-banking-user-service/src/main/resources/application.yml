@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: internet-banking-user-service
+
+server:
+  port: 8083
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+
+management:
+  info:
+    env:
+      enabled: true
+
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+info:
+  application:
+    name: ${spring.application.name}
+    description: Very cool Spring Boot application
+    version: '@project.version@'
+    spring-cloud-version: '@spring-cloud.version@'
+    spring-boot-version: '@project.parent.version@'
